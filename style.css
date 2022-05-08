@@ -1,0 +1,26 @@
+.header {
+  background-image: url(ba1.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header:before {
+	content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.interlineado {
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.parrafo1{
+  color: white;
+  text-align: right;
+  width: 500px;
+}
